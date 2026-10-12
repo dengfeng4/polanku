@@ -1,22 +1,22 @@
 {
     "checkin":  {
-                    "versionCode":  4,
-                    "versionName":  "1.2.0",
+                    "versionCode":  5,
+                    "versionName":  "1.2.1",
                     "sizeKB":  1327,
-                    "sha256":  "41829a4d5e181b954b61c4a65751230656ca520a3d683c4e852f672132489373",
-                    "notes":  "界面大改版：\n· 全新应用图标（进度环 + 对勾）\n· 应用内 emoji 全部换成矢量图标，共 30 个可选\n· 新增三套背景主题：我的 → 背景主题\n· 打卡完成后卡片自动收起，已完成的项目沉到列表底部\n· 老数据不受影响，原来的项目图标会自动换成新图标",
+                    "sha256":  "2ff2d599c7e7e9fea2b20ca1617b10570a95954299eb922e6fad16c26a888656",
+                    "notes":  "修了一个「更新完版本号还是旧的、还一直提示有更新」的问题：\n· 检查更新时不再被 CDN 缓存喂旧清单\n· 下载完除了校验 SHA，还会核对安装包自己的版本号，不对就丢弃重试\n\n上一版 1.2.0 的改动：新应用图标、30 枚矢量图标、三套背景主题、打卡后卡片自动收起。",
                     "channels":  [
                                      {
                                          "label":  "direct",
-                                         "url":  "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782eadbe00ad8a4281e89b250c498737ff5fc0a2d07f8c87c2cf68832ba9f9fdbc2c3"
+                                         "url":  "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782eaadd4a87bab27ac4182fd1cb49510f39f735b2947fa28ef710c305d938210b452"
                                      },
                                      {
                                          "label":  "gh-proxy",
-                                         "url":  "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229a50bec7d2d630a604dc3746ad59393d3a72f614594da4dba09b259b3e42692e49257a451b82943a11a8c8f989a21eaa80"
+                                         "url":  "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229a50bec7d2d630a604dc3746ad59393d3ab51c97023e6f5fcab2e48c8e5c14811f45752270587e8521b3b4fe5792a15984"
                                      },
                                      {
                                          "label":  "ghproxy",
-                                         "url":  "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca47284d673b4af1704a73993ee749bed3b7df66428242041c0c35d5a03458dda3e78a411d668daca710b314e66eef1a0d"
+                                         "url":  "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca47284d673b4af1704a73993ee749bed3836cb5021d36534ae012baf9e73e24d6115d9891a88347260d3b11f51f20d8f3"
                                      }
                                  ]
                 }
