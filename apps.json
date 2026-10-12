@@ -1,0 +1,23 @@
+{
+    "checkin":  {
+                    "versionCode":  3,
+                    "versionName":  "1.1.1",
+                    "sizeKB":  1262,
+                    "sha256":  "e9b9dfad366f2e6ec6fc2c6fa48301b38250dce28b6466fda608a021bad3e1e2",
+                    "notes":  "加了应用内检查更新；宽屏内容限宽居中",
+                    "channels":  [
+                                     {
+                                         "label":  "direct",
+                                         "url":  "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782eac1841ff2094a44b31d583a89e54784b6dc2507f03411f002c9f56e754f5a30f5"
+                                     },
+                                     {
+                                         "label":  "gh-proxy",
+                                         "url":  "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229a86b3dc5fb230791973e5f3075bfce9b29166e324eb7713be05373bc78c88e8a5b9d05e7de4b620c6669aeb5f48d327a6"
+                                     },
+                                     {
+                                         "label":  "ghproxy",
+                                         "url":  "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94cad86616aff1baef8b3c963c70211ba95859a7dd670d32a55137772673741f2deb983ec282a7cccb585727f211c9afce6b"
+                                     }
+                                 ]
+                }
+}
