@@ -1,30 +1,22 @@
 {
   "checkin": {
-    "versionCode": 9,
-    "versionName": "1.3.3",
-    "sizeKB": 1385,
-    "sha256": "3ea3c79b0be84c4a855a2fcb2dbf163af943675a65ae5013fe007c1c7c18d519",
-    "notes": [
-      "v1.3.3",
-      "· 成就徽章改版：一行四个固定网格，解锁只点亮、不改尺寸；徽章只显示图标和名称",
-      "· 点徽章看简介，不再一碰就跳页；进入成就页改由「全部成就」小开关",
-      "· 成就页按六大分类统一铺开，已解锁的排在前面",
-      "· 统计页项目明细在宽屏下三列排布，不再一张张占满整行",
-      "· 全部列表改用自适应网格，平板/大屏自动多排几列；内容区统一最大宽度居中",
-      "· 三套主题下的徽章、开关、弹窗配色全部改为主题派生，不再有看不清的元素"
-    ],
+    "versionCode": 15,
+    "versionName": "1.3.9",
+    "sizeKB": 1549,
+    "sha256": "45d5abfd574709d2a3b489a55dcc928e29d1720c81a7d3b16a7a4c62a83da29f",
+    "notes": "1. 纪念日支持动态照片了：点开能播放，原本有声音的也能听到，右上角可以随时静音。\n2. 纪念日可以放多张照片，左右滑动翻看，长按多选删除，也能给每天写点感想。\n3. 20 枚成就徽章的名字和介绍重新写过了。\n4. 其他一些细节做了优化，用起来更顺手。",
     "channels": [
       {
         "label": "direct",
-        "url": "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782ea21aa3731f46931389b44c48ccc268f3e7d25bc9133f9dfc77a73f58b46eb8d04"
+        "url": "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782eaf69525459eaf86e95601302b7e6b02c6ac5030cd5398748096a038197eac88a3"
       },
       {
         "label": "gh-proxy",
-        "url": "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229a50355d2a3db29a03958bd7ce152ea328cc7549978c99ce70aa24acce5f86f9f4efb4b69c5027bf94485fbff3ae296094"
+        "url": "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229a50355d2a3db29a03958bd7ce152ea3284ea8668e003fb810367be15ee222799ed41d4cc85aa9038ba5c34da3d91a8bd8"
       },
       {
         "label": "ghproxy",
-        "url": "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca5845a0e92ea4c1536f8e658789fa9c0c80b1bebbaea6d87179fefe47d565aacae4252fae832ef5d6114410bea0a89650"
+        "url": "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca5845a0e92ea4c1536f8e658789fa9c0cb718937c9bf281292e1a6a61b773b81e8b53915f114ee274e51e6e124b68e54f"
       }
     ]
   }
