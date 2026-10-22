@@ -1,22 +1,22 @@
 {
     "checkin":  {
-                    "versionCode":  16,
-                    "versionName":  "1.4.0",
-                    "sizeKB":  1565,
-                    "sha256":  "21d6d5941bd1a2a5d63d5ebb354f1f129564e174d586a74e0929346428f11fcf",
-                    "notes":  "v1.4.0\n· 新增自动打卡：勾选项目后，到点自动补记前一天未打卡的项目\n· 设置页编辑区默认收起，点「补记设置」再展开时间与参与项目\n· 补记时间限次日 00:00–06:00；漏掉的日期会补齐，自动记录计入连续天数\n· 修复 Android 13+ 通知不弹：通知权限引导 + 三类独立通知渠道\n· 修复 Android 12+ 精确闹钟未授权导致提醒/补记不触发",
+                    "versionCode":  17,
+                    "versionName":  "1.5.0",
+                    "sizeKB":  1546,
+                    "sha256":  "e0b54eb79857e278b40096333b0896ce2591be81292d4bc8cfeea46d57fc7be3",
+                    "notes":  "v1.5.0\n· 整套界面重做：只剩纸白 / 墨黑两套主题，默认跟随系统\n· 今天页改成账本：一行一个项目，点右侧印章打卡\n· 删掉动态岛、三套主题、全屏主题库和金属开关\n· 新应用图标；提醒续排与几处读不清的文字一并修好\n· 我的 → 通知与权限，可一键发测试通知\n",
                     "channels":  [
                                      {
                                          "label":  "direct",
-                                         "url":  "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782ead5e583209454849a5b07b6a3dd9738db5457bf9fbc6298c0da495ac54d83da94a8dc66be637997f6e06ae0885daf12a2"
+                                         "url":  "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782eacf4a7103a24ed232e2fcd1b0f72ce0ee664e61392e13e4723605210753512452"
                                      },
                                      {
                                          "label":  "gh-proxy",
-                                         "url":  "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229a22737823fb83f550e3421e483a018a412795007deb430779620f2b644f5043185fcf5d6e4cf53e0c2c03ebddd69b7c6f"
+                                         "url":  "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229ad7f1d8ebc41941fa069532b042b713c3a67d3387e42fcce3290cae8355466a602bbbdfc152f5738ba65860133ca2426d"
                                      },
                                      {
                                          "label":  "ghproxy",
-                                         "url":  "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca401fb956feb4c4ed51e71d9b8b1bdba8a199691631871bcd650be12f4279ee9571eb006c2609f05084986be78ed192af"
+                                         "url":  "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca781bc5fdaee64815a1da4eac3a9efe981e2b1b4f28a98b9b28cd2f24baef57e6db0067927e91a3fe2cac4b0bad787c56"
                                      }
                                  ]
                 }
