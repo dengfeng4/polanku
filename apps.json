@@ -1,23 +1,23 @@
 {
-    "checkin":  {
-                    "versionCode":  17,
-                    "versionName":  "1.5.0",
-                    "sizeKB":  1546,
-                    "sha256":  "e0b54eb79857e278b40096333b0896ce2591be81292d4bc8cfeea46d57fc7be3",
-                    "notes":  "v1.5.0\n· 整套界面重做：只剩纸白 / 墨黑两套主题，默认跟随系统\n· 今天页改成账本：一行一个项目，点右侧印章打卡\n· 删掉动态岛、三套主题、全屏主题库和金属开关\n· 新应用图标；提醒续排与几处读不清的文字一并修好\n· 我的 → 通知与权限，可一键发测试通知\n",
-                    "channels":  [
-                                     {
-                                         "label":  "direct",
-                                         "url":  "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782eacf4a7103a24ed232e2fcd1b0f72ce0ee664e61392e13e4723605210753512452"
-                                     },
-                                     {
-                                         "label":  "gh-proxy",
-                                         "url":  "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229ad7f1d8ebc41941fa069532b042b713c3a67d3387e42fcce3290cae8355466a602bbbdfc152f5738ba65860133ca2426d"
-                                     },
-                                     {
-                                         "label":  "ghproxy",
-                                         "url":  "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca781bc5fdaee64815a1da4eac3a9efe981e2b1b4f28a98b9b28cd2f24baef57e6db0067927e91a3fe2cac4b0bad787c56"
-                                     }
-                                 ]
-                }
+    "checkin": {
+        "versionCode": 18,
+        "versionName": "1.5.1",
+        "sizeKB": 1562,
+        "sha256": "bd85d2ce300b1abca2b69c9e24e9f7136902f4a71bf4cc6488621bedbbc0283d",
+        "notes": "v1.5.1\n· 新增「待办事项」：建项目时可以选择一次性待办，适合交房租、收拾书桌这种只做一次的事\n· 待办卡片不再显示日期和打卡条，改为显示创建时的时间\n· 可以给待办设一个时间段：没到开始时间不能点完成，会提示「当前未到待办时限」；过了结束时间也不会自动消失\n· 待办有自己的编辑页，改名、写备注、改时间、删除都在这一页，不再出现打卡周期之类的设置\n· 待办点完成就从项目区移除，不会按天重置，也不影响打卡项目的连续天数\n· 打卡项目照旧，两种项目可以放在同一个项目区里一起用",
+        "channels": [
+            {
+                "label": "direct",
+                "url": "3f1723ecc07b627b772ba41ff5dcb912f08823b08578cbd2e2fc26d31b21802dac5538071662538071c55a35a64782eaa9bbcf813b0bbfbbf49d7fcfba4d9f15e2100663c6979cb1b183f72496d8828a"
+            },
+            {
+                "label": "gh-proxy",
+                "url": "95bbaa65a9c5a5bc3a8ce21593a3a286a13e1ed440dae199069351ad002ca6b106ca9a4b1dd37b68d6d5b2ffb150bd6510fe3c0068a2320304b97f85a55c229ad7f1d8ebc41941fa069532b042b713c3ef372f5b975531e7d70f942839721253a904a62941cc6c15ba8e48677f458097"
+            },
+            {
+                "label": "ghproxy",
+                "url": "fe99ba5d393bbff9704f998a2c974f3286391b38ff72d157002e30e3b5d3ee61edb08f13c3c43368ebbca7b0b2125428a59a5a93641b5fb63dc5af3ee91f94ca781bc5fdaee64815a1da4eac3a9efe98614f7eaeaac8f7e5ae5ac8881a0ee7d328deef475049bd180ff2954ceaa50f99"
+            }
+        ]
+    }
 }
